@@ -22,7 +22,7 @@ bower install btc-payment-protocol --save
 Here the merchant's server will construct the payment details message:
 
 ```javascript
-var PaymentProtocol = require('btc-payment-protocol');
+var PaymentProtocol = require('@owstack/btc-payment-protocol');
 var now = Date.now() / 1000 | 0;
 
 // construct the payment details

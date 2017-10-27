@@ -28,7 +28,7 @@ bower install btc-payment-protocol
 There are many examples of how to use it on the developer guide [section for payment protocol](https://btc.io/api/paypro). For example, the following code would verify a payment request:
 
 ```javascript
-var PaymentProtocol = require('btc-payment-protocol');
+var PaymentProtocol = require('@owstack/btc-payment-protocol');
 
 var body = PaymentProtocol.PaymentRequest.decode(rawbody);
 var request = new PaymentProtocol().makePaymentRequest(body);
