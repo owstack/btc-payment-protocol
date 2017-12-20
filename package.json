@@ -1,6 +1,6 @@
 {
   "name": "@owstack/btc-payment-protocol",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Payment Protocol (BIP70 and related) support for btc.",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
   },
   "browser": "lib/browser.js",
   "dependencies": {
-    "@owstack/btc-lib": "^0.0.3",
+    "@owstack/btc-lib": "^0.0.4",
     "asn1.js": "=4.9.1",
     "asn1.js-rfc3280": "=4.0.0",
     "asn1.js-rfc5280": "=2.0.0",
