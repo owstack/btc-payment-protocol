@@ -1,6 +1,6 @@
 {
   "name": "@owstack/btc-payment-protocol",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Payment Protocol (BIP70 and related) support for btc.",
   "main": "index.js",
   "scripts": {
